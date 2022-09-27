@@ -1,0 +1,43 @@
+{
+  "name": "symbaroum-synetis-mod",
+  "title": "Synetis Symbaroum Mods",
+  "description": "synetis mods for Symbaroum",
+  "version": "This is auto replaced",
+  "library": "false",
+  "minimumCoreVersion": "9",
+  "authors": [
+    {
+      "name": "Benjamin Moya",
+      "url": "https://symbaroum.fr"
+    }
+  ],
+  "dependencies": [
+
+  ],
+  "conflicts": [
+    
+  ],
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "scripts": [
+    
+  ],
+  "styles": [
+    
+  ],
+  "languages": [
+
+  ],
+  "packs": [
+    {
+      "name": "symbasyn-abilities",
+      "label": "Synetis Mod Abilities",
+      "path": "./packs/symbasyn.db",
+      "entity": "Item"
+    }
+  ],
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced"
+}
