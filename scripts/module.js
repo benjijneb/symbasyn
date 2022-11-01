@@ -1,6 +1,7 @@
 import { getItemModifierBerserkerv2, abilitySetupBerserkerv2 } from './abilities/berserk.js';
 import { abilitySetupRecoveryv2 } from './abilities/recovery.js';
 import { mysticPowerSetupPriosburningglassv2 } from './abilities/priosburningglass.js';
+
 Hooks.once('init', async function() {    
     // Add (or replace) prototype functions for integration in to the system
     CONFIG.Item.documentClass.prototype.getItemModifierBerserkerv2 = getItemModifierBerserkerv2;
@@ -15,6 +16,5 @@ Hooks.once('init', async function() {
 
 
 Hooks.once('ready', async function() {
-    //
-    game.symbaroum.log("Module ready hook");
+
 });

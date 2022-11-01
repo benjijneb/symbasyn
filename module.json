@@ -1,22 +1,31 @@
 {
-  "name": "symbaroum-synetis-mod",
+  "id": "symbaroum-synetis-mod",
   "title": "Synetis Symbaroum Mods",
   "description": "synetis mods for Symbaroum",
   "version": "This is auto replaced",
   "library": "false",
-  "minimumCoreVersion": "9",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 10
+  },
   "authors": [
     {
       "name": "Benjamin Moya",
       "url": "https://symbaroum.fr"
     }
   ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
+  "relationships": {
+    "systems": [{
+      "id": "symbaroum",
+      "type": "system",
+      "manifest": "https://github.com/pwatson100/symbaroum/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.0",
+        "verified": 4
+      }
+    }]
+  },
   "esmodules": [
     "/scripts/module.js"
   ],
@@ -27,7 +36,11 @@
     
   ],
   "languages": [
-
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
   ],
   "packs": [
     {
